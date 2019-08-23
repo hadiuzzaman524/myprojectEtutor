@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="755.0" prefWidth="848.0" style="-fx-background-color: #635a5c;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="etutorsoftwer.Signup_pageController">
+   <children>
+      <TextField fx:id="name" layoutX="258.0" layoutY="175.0" prefHeight="32.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#fcfcfc" layoutX="122.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="73.89843463897705">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="instute" layoutX="258.0" layoutY="239.0" prefHeight="32.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#fcfcfc" layoutX="121.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institution" wrappingWidth="115.47003173828125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="studentclass" layoutX="258.0" layoutY="299.0" prefHeight="42.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#fcfcfc" layoutX="122.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class" wrappingWidth="60.13673238456249">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="email" layoutX="258.0" layoutY="364.0" prefHeight="42.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mobile" layoutX="262.0" layoutY="429.0" prefHeight="42.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="password" layoutX="262.0" layoutY="493.0" prefHeight="42.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#fcfcfc" layoutX="122.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#fcfcfc" layoutX="121.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#fcfcfc" layoutX="122.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="60.13674250245094">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button layoutX="424.0" layoutY="552.0" mnemonicParsing="false" onAction="#createButton" prefHeight="42.0" prefWidth="174.0" style="-fx-background-radius: 70; -fx-background-color: black;" text="Create" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="3.0" layoutY="694.0" mnemonicParsing="false" onAction="#close" prefHeight="42.0" prefWidth="136.0" style="-fx-background-radius: 70; -fx-background-color: black;" text="Cancel" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Text fill="#e1dbdb" layoutX="131.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill up student's  required information" wrappingWidth="611.6708984375">
+         <font>
+            <Font name="System Bold Italic" size="51.0" />
+         </font>
+      </Text>
+      <Label fx:id="label" layoutX="25.0" layoutY="603.0" prefHeight="84.0" prefWidth="800.0" textFill="#2ce51c">
+         <font>
+            <Font name="System Bold Italic" size="57.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

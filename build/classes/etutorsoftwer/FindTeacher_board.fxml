@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1250.0" style="-fx-background-color: #635a5c;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="etutorsoftwer.FindTeacher_boardController">
+   <children>
+      <Button layoutX="189.0" layoutY="279.0" mnemonicParsing="false" onAction="#RangpurButton" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: black; -fx-background-radius: 70;" text="Rangpur" textFill="#eeeaea">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="504.0" layoutY="152.0" mnemonicParsing="false" onAction="#DhakaButton" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: black; -fx-background-radius: 70;" text="Dhaka" textFill="#ebebeb">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="148.0" layoutY="406.0" mnemonicParsing="false" onAction="#RajshahiButton" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: black; -fx-background-radius: 70;" text="Rajshahi" textFill="#ebebeb">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="280.0" layoutY="584.0" mnemonicParsing="false" onAction="#KhulnaButton" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: black; -fx-background-radius: 70;" text="Khulna" textFill="#ebebeb">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="882.0" layoutY="406.0" mnemonicParsing="false" onAction="#ChittagongButton" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: black; -fx-background-radius: 70;" text="Chittagong" textFill="#ebebeb">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="795.0" layoutY="279.0" mnemonicParsing="false" onAction="#SylhetButton" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: black; -fx-background-radius: 70;" text="Sylhet" textFill="#ebebeb">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="736.0" mnemonicParsing="false" onAction="#Backbutton" prefHeight="40.0" prefWidth="124.0" style="-fx-background-radius: 60;" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Text fill="#fcfcfc" layoutX="244.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find your best teacher" wrappingWidth="798.1884765625">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="74.0" />
+         </font>
+      </Text>
+      <Button layoutX="732.0" layoutY="584.0" mnemonicParsing="false" onAction="#BarisalButton" prefHeight="70.0" prefWidth="220.0" style="-fx-background-color: black; -fx-background-radius: 70;" text="Barisal" textFill="#eeeaea">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="332.0" fitWidth="334.0" layoutX="438.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@yeollomap.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1250.0" style="-fx-background-color: #635a5c;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="etutorsoftwer.Teacher_Barishal_DivisionController">
+   <children>
+      <Button layoutX="661.0" layoutY="226.0" mnemonicParsing="false" onAction="#BorgunaButton" prefHeight="0.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 90;" text="Borguna" textFill="#eeeaea">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="782.0" layoutY="372.0" mnemonicParsing="false" onAction="#BholaButton" prefHeight="0.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 90;" text="Bhola" textFill="#ebebeb">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="736.0" mnemonicParsing="false" onAction="#Backbutton" prefHeight="40.0" prefWidth="124.0" style="-fx-background-radius: 60;" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <Text fill="#fcfcfc" layoutX="11.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select uour Current City" wrappingWidth="1196.1884765625">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="58.0" />
+         </font>
+      </Text>
+      <Button layoutX="206.0" layoutY="372.0" mnemonicParsing="false" onAction="#PirozpurButton" prefHeight="0.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 90;" text="Pirozpur" textFill="#eeeaea">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="347.0" layoutY="224.0" mnemonicParsing="false" onAction="#BarishalButton" prefHeight="0.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 90;" text="Barishal" textFill="#eeeaea">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="336.0" layoutY="535.0" mnemonicParsing="false" onAction="#JhalokathiButton" prefHeight="0.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 90;" text="Jhalokathi" textFill="#ebebeb">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="654.0" layoutY="536.0" mnemonicParsing="false" onAction="#PotuakhaliButton" prefHeight="0.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 90;" text="Potuakhali" textFill="#ebebeb">
+         <font>
+            <Font name="Bell MT Italic" size="32.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1250.0" style="-fx-background-color: #635a5c;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="etutorsoftwer.Signup_Teacher_badargangController">
+   <children>
+      <TextField fx:id="name" layoutX="70.0" layoutY="123.0" prefHeight="32.0" prefWidth="500.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#07f2bb" layoutX="70.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="# Enter your name: " wrappingWidth="447.89843463897705">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <TextField fx:id="address" layoutX="67.0" layoutY="238.0" prefHeight="32.0" prefWidth="500.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#07f2bb" layoutX="70.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="# Enter your current location:" wrappingWidth="695.4700317382812">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <TextField fx:id="email" layoutX="63.0" layoutY="357.0" prefHeight="42.0" prefWidth="500.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mobile" layoutX="63.0" layoutY="470.0" prefHeight="42.0" prefWidth="500.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="educationalqualification" layoutX="634.0" layoutY="268.0" prefHeight="42.0" prefWidth="500.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#07f2bb" layoutX="67.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="# Enter your mobile number:" wrappingWidth="562.8984105587006">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fill="#fcfcfc" layoutX="139.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="261.89841055870056">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fill="#07f2bb" layoutX="70.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="# Enter your email address:" wrappingWidth="631.9999924898148">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Button layoutX="1058.0" layoutY="728.0" mnemonicParsing="false" onAction="#submit" prefHeight="42.0" prefWidth="174.0" style="-fx-background-radius: 70; -fx-background-color: black;" text="Submit" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="736.0" mnemonicParsing="false" onAction="#close" prefHeight="42.0" prefWidth="136.0" style="-fx-background-radius: 70; -fx-background-color: black;" text="Back" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Text fill="#e1dbdb" layoutX="11.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill up student's  required information" wrappingWidth="945.6708984375">
+         <font>
+            <Font name="System Bold Italic" size="51.0" />
+         </font>
+      </Text>
+      <Label fx:id="label" layoutX="600.0" layoutY="589.0" prefHeight="84.0" prefWidth="646.0" textFill="#1ee31e">
+         <font>
+            <Font name="System Bold Italic" size="49.0" />
+         </font>
+      </Label>
+      <TextField fx:id="interestedsubject" layoutX="67.0" layoutY="638.0" prefHeight="42.0" prefWidth="500.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text layoutX="308.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fill="#07f2bb" layoutX="70.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="# Enter your interested subject to teach student:" wrappingWidth="553.8984105587006">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fill="#07f2bb" layoutX="630.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="# Enter your Educational background:(last exam name and result)" wrappingWidth="585.8984105587006">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fill="#07f2bb" layoutX="624.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="# Expected Salary :" wrappingWidth="562.8984105587006">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Salary" layoutX="634.0" layoutY="390.0" prefHeight="42.0" prefWidth="500.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Button layoutX="566.0" layoutY="744.0" mnemonicParsing="false" onAction="#home" prefHeight="42.0" prefWidth="136.0" style="-fx-background-radius: 70; -fx-background-color: black;" text="Home" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
